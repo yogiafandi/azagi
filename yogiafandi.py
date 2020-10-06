@@ -1,13 +1,13 @@
-import numpy as np
+kimport numpy as np
 import matplotlib.pyplot as plt
 import skimage.io as io
 
 from copy import deepcopy
-koala=io.imread('koala.jpg')
+oke=io.imread('oke.jpg')
 
-red_channel= deepcopy(koala)
-green_channel= deepcopy(koala)
-blue_channel= deepcopy(koala)
+red_channel= deepcopy(oke)
+green_channel= deepcopy(oke)
+blue_channel= deepcopy(oke)
 
 red_channel[:,:,1]=0
 red_channel[:,:,2]=0
@@ -21,7 +21,7 @@ blue_channel[:,:,1]=0
 
 fig, ax = plt.subplots(ncols=2, nrows=2)
 
-ax[0,0].imshow(koala)
+ax[0,0].imshow(oke)
 ax[0,0].set_title('')
 
 ax[0,1].imshow(red_channel)
@@ -39,11 +39,11 @@ import matplotlib.pyplot as plt
 import skimage.io as io
 
 from copy import deepcopy
-koala=io.imread('koala.jpg')
+oke=io.imread('oke.jpg')
 
-red_channel= deepcopy(koala)
-green_channel= deepcopy(koala)
-blue_channel= deepcopy(koala)
+red_channel= deepcopy(oke)
+green_channel= deepcopy(oke)
+blue_channel= deepcopy(oke)
 
 red_channel[:,:,1]=0
 red_channel[:,:,2]=0
@@ -57,7 +57,7 @@ blue_channel[:,:,1]=0
 
 fig, ax = plt.subplots(ncols=2, nrows=2)
 
-ax[0,0].imshow(koala)
+ax[0,0].imshow(oke)
 ax[0,0].set_title('')
 
 ax[0,1].imshow(red_channel)
